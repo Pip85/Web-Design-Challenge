@@ -1,0 +1,19 @@
+body {background-color: #f5f5f5;
+    font-family: Tahoma;
+    font: size 14%;}
+
+.row-1 {align-items: center;
+    background-color: white;
+    font-family: sans-serif;
+    padding: .1in;
+    color:black;}
+
+.nav-1 {font-family: sans-serif;
+    color: black;
+    font-size:14pt;}
+
+.row-2 {margin-top: 3%;
+    margin-right: 1%;}
+
+.row-3 {margin-top: .5%;
+    margin-right: 1%;}

@@ -1,36 +1,100 @@
 <!-- Create web page to showcase visualizations from analysis of
-    weather data from randomly sampled cities across the world-->
+    weather data compared with latitude from randomly sampled cities across the world-->
 <DOCTYPE html>
     <html lang="en-us">
         <head>
             <meta charset="TUF-8">
-            <title>latitude</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+            <link rel="stylesheet" href="style.css">
+            <title>Latitude</title>
         </head>
         <body>
-            <section>
-                <h1>Latitude</h1>
-                <h3>How does latitude impact world climate?</h3>
-                <article>
-                    <a target="_blank" href="visualizations/City Latitude vs Max Temperature.png">
-                    <img src="visualizations/City Latitude vs Max Temperature.png" alt="Temperature Map">
-                    </a>
-                    <hr width="1" size="500">
-                    <p>The latitude analysis was initiated by pulling 1,500 random latitude and longitude coordinates using Numpy.  
-                        Python Citipy library was then used to obtain the closest cities to the random coordinates. Of the 1,500 coordinates,
-                        only a little more than 600 cities were identified.
-                        
-                        Using OpenWeatherMap API, data on temperature, humidity, cloudiness, and wind speed was captured for each of the 
-                        cities.  Scatter plots were created to compare city latitudes with each of the temperature, humidity, cloudiness and
-                        wind speed data points.  Analysis showed that latitude has a strong correlation with temperature, but humidity,
-                        cloudiness and wind speed do not correlate with latitude.
+            <div class="container-fluid">
+                <div class="row row-1">
+                    <div class="col-3">
+                        <h1 h1.Bootstrap heading><a href="#" class="text-decoration-none text-body">Latitude</a></h1>
+                    </div>
+                    <div class="col-5">
+                    </div>
+                    <div class="col-4">
+                        <nav class="navbar navbar-default nav-1 justify-content-end"> 
+                            <ul class="nav">
+                                <li class="nav-item-dropdown">
+                                    <a class="nav-link dropdown-toggle nav-1" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">Plots                                            
+                                    </a>
+                                    <ul class="dropdown-menu" aria-lableledby="navbarDropdown">
+                                        <li><a class="dropdown-item nav-1": href="#">Max Temp</a></li>
+                                        <li><a class="dropdown-item nav-1": href="#">Humidity</a></li>
+                                        <li><a class="dropdown-item nav-1": href="#">Cloudiness</a></li>
+                                        <li><a class="dropdown-item nav-1": href="#">Wind Speed</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-1" href="#">Comparison</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-1" href="#">Data</a>
+                                </li>
+                            </ul>             
+                        </nav>
+                    </div>
+                </div>    
+            </div>                 
+            <div class="container">
+                <div class="row row-2">
+                    <div class="col">
+                        <a target="_blank" href="visualizations/City Latitude vs Max Temperature.png">
+                            <img src="visualizations/City Latitude vs Max Temperature.png" class="img-thumbnail float-left" style="width: 400px;" alt="Temperature Map">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a target="_blank" href="visualizations/City Latitude vs Humidity.png">
+                            <img src="visualizations/City Latitude vs Humidity.png" class="img-thumbnail" style="width: 400px;" alt="Humidity Map">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <article>
+                            <h3>How does latitude impact world climate?</h3></br>
+                            </br>
+                            <p>The latitude analysis was initiated by pulling 1,500 random latitude and longitude coordinates using Numpy.  
+                            Python Citipy library was then used to obtain the closest cities to the random coordinates. Of the 1,500 coordinates,
+                            only a little more than 600 cities were identified.</br>
+                            </br>
+                            </br>
+                            </p>
+                        </article>
+                    </div>
+                </div>
 
-                        You can find the scatter plot visualizations of the data by clicking each visualization.
-                    </p>
-                </article>
-            </section>
-            <nav>
-                <ahref="#">Navbar</ahref>
-            </nav>
+                <div class="row row-3">
+                    <div class="col">
+                        <a target="_blank" href="visualizations/City Latitude vs Cloudiness.png">
+                            <img src="visualizations/City Latitude vs Cloudiness.png" class="img-thumbnail float-left" style="width: 400px;" alt="Cloudiness">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a target="_blank" href="visualizations/City Latitude vs Wind Speed.png">
+                            <img src="visualizations/City Latitude vs Wind Speed.png" class="img-thumbnail" style="width: 400px;" alt="Wind Speed">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <article>
+                            <p>Using OpenWeatherMap API, data on temperature, humidity, cloudiness, and wind speed was captured for each of the 
+                            cities.  Scatter plots were created to compare city latitudes with each of the temperature, humidity, cloudiness and
+                            wind speed data points.  Analysis showed that latitude has a strong correlation with temperature, but humidity,
+                            cloudiness and wind speed do not correlate with latitude.</br>
+                            </br>
+                            You can find the scatter plot visualizations of the data by clicking each visualization.
+                            </p>
+                        </article>
+                    </div>
+                </div>   
+            </div>   
+            
+                      
         </body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> 
     </html>
 </DOCTYPE>
