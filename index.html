@@ -11,87 +11,89 @@
         </head>
         
         <body>
-            <div class="container-fluid">
-                <div class="row row-1">
+            <header>
+                <div class="row row-1 align-items-center">
                     <div class="col">
-                        <h1 h1.Bootstrap heading><a href="#" class="text-decoration-none text-body">Latitude</a></h1>
+                        <h1><a href="index.html" class="text-decoration-none text-body">Latitude</a></h1>
                     </div>
                     <div class="col">
                         <nav class="navbar navbar-default nav-1 justify-content-end"> 
                             <ul class="nav">
-                                <li class="nav-item-dropdown">
-                                    <a class="nav-link dropdown-toggle nav-1" href="#" id="navbarDropdown"
+                                <li class="nav-item-dropdown dropdown">
+                                    <a class="nav-link dropdown-toggle dropdown-toggle-split nav-1" href="#" id="navbarDropdown"
                                         role="button" data-bs-toggle="dropdown" aria-expanded="false">Plots                                            
                                     </a>
                                     <ul class="dropdown-menu" aria-lableledby="navbarDropdown">
-                                        <li><a class="dropdown-item nav-1": href="#">Max Temp</a></li>
-                                        <li><a class="dropdown-item nav-1": href="#">Humidity</a></li>
-                                        <li><a class="dropdown-item nav-1": href="#">Cloudiness</a></li>
-                                        <li><a class="dropdown-item nav-1": href="#">Wind Speed</a></li>
+                                        <li><a class="dropdown-item": href="temp.html">Max Temp</a></li>
+                                        <li><a class="dropdown-item": href="humidity.html">Humidity</a></li>
+                                        <li><a class="dropdown-item": href="cloudiness.html">Cloudiness</a></li>
+                                        <li><a class="dropdown-item": href="wind_speed.html">Wind Speed</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link nav-1" href="#">Comparison</a>
+                                    <a class="nav-link nav-1" href="comparison.html">Comparison</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link nav-1" href="#">Data</a>
+                                    <a class="nav-link nav-1" href="data.html">Data</a>
                                 </li>
                             </ul>                             
                         </nav>
                     </div>
                 </div>    
-            </div>                  
+            </header>                  
             
-            <div class="container-fluid">
+            <section class="container">
                 <div class="row row-2">
-                    <div class="col">
+                    <div class="col-4 text_col">
+                        <article>
+                            <h2><strong>How does latitude impact world climate?</strong></h2></br>                           
+                            <p>The latitude analysis was initiated by pulling 1,500 random latitude and longitude coordinates using Numpy.  
+                            Python Citipy library was then used to obtain the closest cities to the random coordinates. Of the 1,500 coordinates,
+                            only a little more than 600 cities were identified.</br>                           
+                            </p>
+                        </article>                        
+                    </div>                    
+                    <div class="col img_col">
                         <a target="_blank" href="visualizations/City Latitude vs Max Temperature.png">
                             <img src="visualizations/City Latitude vs Max Temperature.png" class="img-thumbnail img-responsive" style="width: 400px;" alt="Temperature Map">
                         </a>
                     </div>
-                    <div class="col">
+                    <div class="col img_col">
                         <a target="_blank" href="visualizations/City Latitude vs Humidity.png">
                             <img src="visualizations/City Latitude vs Humidity.png" class="img-thumbnail" style="width: 400px;" alt="Humidity Map">
                         </a>
                     </div>
-                    <div class="col">
-                        <article>
-                            <h3>How does latitude impact world climate?</h3></br>
-                            </br>
-                            <p>The latitude analysis was initiated by pulling 1,500 random latitude and longitude coordinates using Numpy.  
-                            Python Citipy library was then used to obtain the closest cities to the random coordinates. Of the 1,500 coordinates,
-                            only a little more than 600 cities were identified.</br>
-                            </br>
-                            </br>
-                            </p>
-                        </article>
-                    </div>
                 </div>
-             </div>   
-            <div class="container-fluid">
+             
                 <div class="row row-3">
-                    <div class="col">
+                    <div class="col-4 text_col">
+                        <span class="border-end border-dark border-5">                       
+                            <article>
+                                <p>Using OpenWeatherMap API, data on temperature, humidity, cloudiness, and wind speed was captured for each of the 
+                                cities.  Scatter plots were created to compare city latitudes with each of the temperature, humidity, cloudiness and
+                                wind speed data points.  Analysis showed that latitude has a strong correlation with temperature, but humidity,
+                                cloudiness and wind speed do not correlate with latitude.</br>                             
+                                <br> 
+                                You can find the scatter plot visualizations of the data by clicking each visualization.</p>
+                                </p>
+                            </article>
+                         </span>
+                    </div>                    
+                    <div class="col img_col img_col-3">
                         <a target="_blank" href="visualizations/City Latitude vs Cloudiness.png">
                             <img src="visualizations/City Latitude vs Cloudiness.png" class="img-thumbnail float-left" style="width: 400px;" alt="Cloudiness">
                         </a>
                     </div>
-                    <div class="col">
+                    <div class="col img_col img_col-3">
                         <a target="_blank" href="visualizations/City Latitude vs Wind Speed.png">
                             <img src="visualizations/City Latitude vs Wind Speed.png" class="img-thumbnail" style="width: 400px;" alt="Wind Speed">
                         </a>
                     </div>
-                    <div class="col">
-                        <article>
-                            <p>Using OpenWeatherMap API, data on temperature, humidity, cloudiness, and wind speed was captured for each of the 
-                            cities.  Scatter plots were created to compare city latitudes with each of the temperature, humidity, cloudiness and
-                            wind speed data points.  Analysis showed that latitude has a strong correlation with temperature, but humidity,
-                            cloudiness and wind speed do not correlate with latitude.</br>
-                            </br>
-                            You can find the scatter plot visualizations of the data by clicking each visualization.
-                            </p>
-                        </article>
-                    </div>
+                    
                 </div>   
+            </section>
+           
+                
             </div>   
             
                       
