@@ -30,3 +30,12 @@ h1 {align-items: center;
 .img_col {margin-left: 2%;}    
 
 .img_col-3 {margin-top: 2%;}    
+
+.vis_header-1 {color:firebrick;
+        margin-top: 3%;
+        border-bottom:solid lightgray;}
+
+.img_col_vis {margin-right: -13%;}
+
+.col_vis {margin-top: 3%;
+    margin-left: 5%;}
