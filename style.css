@@ -1,9 +1,8 @@
 body {background-color: #f5f5f5;
-    font-family: sans-serif;
-    font-size: 15.5;}
+    font-family: sans-serif;}
 
-.row-1 {background-color: white;
-    padding: .1in;
+.header_row-1 {background-color: white;
+    padding: .2%;
     color:black;}
 
 h1 {align-items: center;
@@ -18,18 +17,20 @@ h1 {align-items: center;
 .dropdown {display:inline-block;}
     
 .row-2 {margin-top: 3%;
-        margin-right: -80;}   
+    margin-left: 0%}
 
-.row-3 {margin-top: 0%;
-       margin-right: -80;}
+.row-3 {margin-left: 0%;
+    margin-top: 1%;}
 
 .text_col {border-right:solid black;
     border-right-width: .03in;
     margin-left: -8%}
 
-.img_col {margin-left: 2%;}    
+.img_col {margin-left: 3%;}  
 
-.img_col-3 {margin-top: 2%;}    
+.img_thumb {border-width: 2%;}
+
+.img_col-3 {margin-top: 3%;}    
 
 .vis_header-1 {color:firebrick;
         margin-top: 3%;
@@ -41,3 +42,5 @@ h1 {align-items: center;
 
 .col_vis {margin-top: 3%;
     margin-left: 5%;}
+
+    
