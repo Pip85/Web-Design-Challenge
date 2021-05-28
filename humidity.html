@@ -1,4 +1,5 @@
 <!-- Show humidity plot with summary. -->
+<!-- Show max-temp plot with summary. -->
 <DOCTYPE html>
     <html lang="en-us">
         <head>
@@ -8,35 +9,76 @@
             <link rel="stylesheet" href="style.css">
             <title>Latitude</title>
         </head>
-
+        
         <body>
             <header>
-                <div class="row row-1 align-items-center">
+                <div class="row header_row-1 align-items-center">
                     <div class="col">
                         <h1><a href="index.html" class="text-decoration-none text-body">Latitude</a></h1>
                     </div>
                     <div class="col">
-                        <nav class="navbar navbar-default nav-1 justify-content-end"> 
-                            <ul class="nav">
-                                <li class="nav-item-dropdown dropdown">
-                                    <a class="nav-link dropdown-toggle dropdown-toggle-split nav-1" href="#" id="navbarDropdown"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">Plots                                            
-                                    </a>
-                                    <ul class="dropdown-menu" aria-lableledby="navbarDropdown">
-                                        <li><a class="dropdown-item": href="temp.html">Max Temp</a></li>
-                                        <li><a class="dropdown-item": href="humidity.html">Humidity</a></li>
-                                        <li><a class="dropdown-item": href="cloudiness.html">Cloudiness</a></li>
-                                        <li><a class="dropdown-item": href="wind_speed.html">Wind Speed</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link nav-1" href="comparison.html">Comparison</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link nav-1" href="data.html">Data</a>
-                                </li>
-                            </ul>                             
+                        <nav class="navbar navbar-default nav-1 justify-content-end">                        
+                            <!-- <div class="container-fluid"> -->
+                                <!-- <div class="collapse navbar-collapse"> -->
+                                <ul class="nav">
+                                    <li class="nav-item-dropdown dropdown">
+                                        <a class="nav-link dropdown-toggle dropdown-toggle-split nav-1" href="#" id="navbarDropdown"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Plots                                            
+                                        </a>
+                                        <ul class="dropdown-menu" aria-lableledby="navbarDropdown">
+                                            <li><a class="dropdown-item": href="temp.html">Max Temp</a></li>
+                                            <li><a class="dropdown-item": href="humidity.html">Humidity</a></li>
+                                            <li><a class="dropdown-item": href="cloudiness.html">Cloudiness</a></li>
+                                            <li><a class="dropdown-item": href="wind_speed.html">Wind Speed</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-1" href="comparison.html">Comparison</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-1" href="data.html">Data</a>
+                                    </li>
+                                </ul>    
+                                <!-- </div> -->
+                            <!-- </div>                                                   -->
                         </nav>
                     </div>
                 </div>    
-            </header>              
+            </header>                  
+
+            <section class="container-fluid">
+                <div class="row">
+                    <div class="col-md-9 col-sm-10">
+                        <h1 class="vis_header-2 text-center"><strong>HUMIDITY</strong></h1>                        
+                    </div>
+                    <div class="col-md-3 col-sm-2 col_vis">
+                        <h3><strong>Visualizations</strong></h3>     
+                    </div>    
+                </div>
+                <div class="row">
+                    <div class="col-md-9 col-sm-10 col_plot">
+                        <a target="_blank" href="visualizations/City Latitude vs Humidity.png">
+                        <img src="visualizations/City Latitude vs Humidity.png" class="img-fluid rounded mx-auto d-block" style="width: 600px;" alt="Humidity Map">
+                    </a> 
+                        <p></br>The above plot indicates a lack of correlation between latitude and humidity.  Rather, it shows that higher levels of humidy seem to exist at all latitudes.  The season reflected in the dataset is mostly likely impacting this plot.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-2 img_col_vis">                       
+                        <a href="https://pip85.github.io/Web-Design-Challenge/temp.html">
+                            <img src="https://pip85.github.io/Web-Design-Challenge/visualizations/City Latitude vs Max Temperature.png" class="img-thumbnail img-responsive" style="width: 200px;" alt="Temperature Map">
+                        </a>
+                        <a href="https://pip85.github.io/Web-Design-Challenge/humidity.html">
+                            <img src="https://pip85.github.io/Web-Design-Challenge/visualizations/City Latitude vs Humidity.png" class="img-thumbnail img-responsive" style="width: 200px;" alt="Humidity Map">
+                        </a>
+                        <a href="https://pip85.github.io/Web-Design-Challenge/cloudiness.html">
+                            <img src="https://pip85.github.io/Web-Design-Challenge/visualizations/City Latitude vs Cloudiness.png" class="img-thumbnail img-responsive" style="width: 200px;" alt="Cloudiness Map">
+                        </a>
+                        <a href="https://pip85.github.io/Web-Design-Challenge/wind_speed.html">
+                            <img src="https://pip85.github.io/Web-Design-Challenge/visualizations/City Latitude vs Wind Speed.png" class="img-thumbnail img-responsive" style="width: 200px;" alt="Wind Speed Map">
+                        </a>
+                    </div>
+                </div>            
+            </section>
+        </body>
+    </html>
+</DOCTYPE>
+

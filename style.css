@@ -30,14 +30,23 @@ h1 {align-items: center;
 
 .img_col-3 {margin-top: 3%;}    
 
-.vis_header-1 {color:firebrick;
+#vis_header-1 {color:firebrick;
         margin-top: 3%;}
 
 .img_col_vis {margin-right: -13%;}
 
-/* .col_plot {align-items: center;} */
+.col_plot {align-items: center;}
 
 .col_vis {margin-top: 2%;
         align-items:center;}
 
-    
+#vis_header-2 {color:darkgreen;
+    margin-top: 3%;}  
+
+#vis_header-3 {color:blue;
+    margin-top: 3%;}  
+
+#vis_header-3 {color:darkgoldenrod;
+    margin-top: 3%;}  
+
+.comp_title {text-align: center;}
