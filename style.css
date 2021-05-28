@@ -15,14 +15,14 @@ h1 {align-items: center;
 
 .dropdown {display:inline-block;}
 
-#land_row-1 {padding-bottom: 0;}
+/* #land_row-1 {padding-bottom: 0;}
 
 #land_row-2 {margin-left: -1%;
     margin-bottom: 0;}
     
 #land_col-1_text {text-align-last;}
 
-.text_col {margin-left: -8%;}
+.text_col {margin-left: -8%;} */
 
 .img_col {margin-left: 3%;}  
 
@@ -34,11 +34,11 @@ h1 {align-items: center;
         margin-top: 3%;
         border-bottom:solid lightgray;}
 
-.img_col_vis {margin-right: -13%;}
+/* .img_col_vis {margin-right: -13%;} */
 
-.col_plot {margin-right: 5%;}
+/* .col_plot {align-content: center;} */
 
-.col_vis {margin-top: 3%;
-    margin-left: 5%;}
+/* .col_vis {margin-top: 3%;
+    margin-left: 5%;} */
 
     
