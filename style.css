@@ -31,14 +31,13 @@ h1 {align-items: center;
 .img_col-3 {margin-top: 3%;}    
 
 .vis_header-1 {color:firebrick;
-        margin-top: 3%;
-        border-bottom:solid lightgray;}
+        margin-top: 3%;}
 
-/* .img_col_vis {margin-right: -13%;} */
+.img_col_vis {margin-right: -13%;}
 
-/* .col_plot {align-content: center;} */
+/* .col_plot {align-items: center;} */
 
-/* .col_vis {margin-top: 3%;
-    margin-left: 5%;} */
+.col_vis {margin-top: 2%;
+        align-items:center;}
 
     
