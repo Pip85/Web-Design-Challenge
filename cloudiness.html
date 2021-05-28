@@ -11,40 +11,33 @@
         </head>
         
         <body>
-            <header>
-                <div class="row header_row-1 align-items-center">
-                    <div class="col">
-                        <h1><a href="index.html" class="text-decoration-none text-body">Latitude</a></h1>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand text-body" href="index.html">Latitude</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item-dropdown">
+                                <a class="nav-link dropdown-toggle text-body" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>   
+                                <div class="dropdown-menu dropdown-menu-right text-body" aria-lableledby="navbarDropdown">
+                                    <a class="dropdown-item": href="temp.html">Max Temp</a>
+                                    <a class="dropdown-item": href="humidity.html">Humidity</a>
+                                    <a class="dropdown-item": href="cloudiness.html">Cloudiness</a>
+                                    <a class="dropdown-item": href="wind_speed.html">Wind Speed</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-body" href="comparison.html">Comparison</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-body" href="data.html">Data</a>
+                            </li>
+                        </ul>                     
                     </div>
-                    <div class="col">
-                        <nav class="navbar navbar-default nav-1 justify-content-end">                        
-                            <!-- <div class="container-fluid"> -->
-                                <!-- <div class="collapse navbar-collapse"> -->
-                                <ul class="nav">
-                                    <li class="nav-item-dropdown dropdown">
-                                        <a class="nav-link dropdown-toggle dropdown-toggle-split nav-1" href="#" id="navbarDropdown"
-                                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Plots                                            
-                                        </a>
-                                        <ul class="dropdown-menu" aria-lableledby="navbarDropdown">
-                                            <li><a class="dropdown-item": href="temp.html">Max Temp</a></li>
-                                            <li><a class="dropdown-item": href="humidity.html">Humidity</a></li>
-                                            <li><a class="dropdown-item": href="cloudiness.html">Cloudiness</a></li>
-                                            <li><a class="dropdown-item": href="wind_speed.html">Wind Speed</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link nav-1" href="comparison.html">Comparison</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link nav-1" href="data.html">Data</a>
-                                    </li>
-                                </ul>    
-                                <!-- </div> -->
-                            <!-- </div>                                                   -->
-                        </nav>
-                    </div>
-                </div>    
-            </header>                  
+                </div>
+            </nav>
 
             <section class="container-fluid">
                 <div class="row">
