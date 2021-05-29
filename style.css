@@ -7,8 +7,7 @@ body {background-color: #f5f5f5;
     font-size: 20px;
     border-bottom: black;
     border-width: .5;
-    border-style: solid;
-    height: 10%}
+    border-style: solid;}
 
 .navbar-brand {color:black;
     background-color: white;
@@ -27,47 +26,7 @@ body {background-color: #f5f5f5;
     width: 22px;
     height: 2px;
     background-color: #cccccc;
-    border-radius: 1px;
-  }
-
-
-/* .dropdown {display:inline-block;
-  } */
-
-
-/* .land_text {margin-left: 0%;}  */
-/* 
-
-    .header_row-1 {background-color: white;
-    padding: .2%;
-    color:black;}
-
-h1 {align-items: center;    
-    margin-left:6%;} */ */
-
-/* .nav-1 {
-    color: black;
-    font-size:14pt;
-    margin-right: 10%;}
-
-.dropdown {display:inline-block;} */
-
-/* #land_row-1 {padding-bottom: 0;}
-
-#land_row-2 {margin-left: -1%;
-    margin-bottom: 0;}
-    
-#land_col-1_text {text-align-last;}
-
-.text_col {margin-left: -8%;} */
-
-/* .img_col {margin-left: 3%;}  
-
-.img_thumb {border-width: 2%;}
-
-.img_col-3 {margin-top: 3%;}     */
-
-
+    border-radius: 1px;}
 
 .img_col_vis {margin-right: -13%;
     }
