@@ -1,4 +1,4 @@
-body {background-color:lightgrey;
+body {background-color:rgb(229, 231, 235);
     font-family: sans-serif;}
 
 .navbar {
@@ -43,15 +43,13 @@ body {background-color:lightgrey;
 
 .comp_col-2 {margin-left: 0%;}
 
-/* #data_row-1 {border-bottom: lightgrey;
+#data_row-1 {border-bottom:lightgrey;
     border-width: .1pt;
     border-bottom-style: solid;
-   } */
+   background-color:rgb(226, 226, 226);}
 
 #data_header {font-size: 35;
-    color:seagreen;
-    background-color: white;
-    margin-bottom: -2.25%;}
+    color:seagreen;}
 
 #data_cap {background-color: white;}
 
