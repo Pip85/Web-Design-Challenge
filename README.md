@@ -69,26 +69,26 @@ The website must consist of 7 pages total, including:
 * Website was created using HTML, Bootstrap & CSS.
 * The website includes a navbar created with Bootstrap & CSS for navigating the visualizations.
 
-![landing]()
+![landing](https://github.com/Pip85/Web-Design-Challenge/blob/main/images/landing_page.png)
 
 * A series of 4 plot pages was created to show each visualization along with a short summary.  Each plot page also includes a small inset of all 4 plot pages to use as navigation between the 4 plots.  Navigation to the plots can also be found under the Plot dropdown in the navigation bar.
 
 
-![max_temp]()
+![max_temp](https://github.com/Pip85/Web-Design-Challenge/blob/main/images/max_temp_plot.png)
 
-![humidity]()
+![humidity](https://github.com/Pip85/Web-Design-Challenge/blob/main/images/humidity_plot.png)
 
-![cloudiness]()
+![cloudiness](https://github.com/Pip85/Web-Design-Challenge/blob/main/images/cloudiness_plot.png)
 
-![wind_speed]()
+![wind_speed](https://github.com/Pip85/Web-Design-Challenge/blob/main/images/wind_speed_plot.png)
 
 * Created Comparison page of all 4 visualizations together
 
-![comparison]()
+![comparison](https://github.com/Pip85/Web-Design-Challenge/blob/main/images/comparison.png)
 
 * Created Data page with table of cities.csv content.
 
-![data]()
+![data](https://github.com/Pip85/Web-Design-Challenge/blob/main/images/data.png)
 
 * The site was deployed using github pages.
 
